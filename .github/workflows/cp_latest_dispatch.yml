@@ -11,6 +11,7 @@ on:
         options:
           - Windows (x86_64)
           - Linux (x86_64)
+          - MacOS (x86_64)
       patch-server-port:
         description: 'Patch server port (useful for resolving port conflicts)"'
         required: true
@@ -18,15 +19,15 @@ on:
       patch-user-email:
         description: 'Fake registered email (for fake FE account)'
         required: true
-        default: 'long@telerik.com'
+        default: 'Wei@gmail.com'
       patch-user-firstName:
         description: 'Fake registered first name (for fake FE account)'
         required: true
-        default: 'Long'
+        default: 'Li'
       patch-user-lastName:
         description: 'Fake registered last name (for fake FE account)'
         required: true
-        default: 'Wang'
+        default: 'Wei'
       patch-user-country-code:
         description: 'Fake registered country code (for fake FE account) ; Ex: 86'
         required: true
